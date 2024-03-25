@@ -9,6 +9,7 @@ export const UseRefItemDom = () => {
 
   const handleClick = () => {
     ref.current.focus();
+    console.log(ref.current.value); // useStateを使わず、inputに入力された値を取得するのみ パフォーマンスの観点で有利になる場合もある
   };
 
   return (

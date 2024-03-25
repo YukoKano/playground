@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
-  return <main>hogehoge</main>;
+  return <h1>Playground</h1>;
 }

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 const createConnection = (serverUrl, roomId) => {
   return {
+    // この渡し方知らない。。
     connect() {
       console.log(
         '✅ Connecting to "' + roomId + '" room at ' + serverUrl + "..."

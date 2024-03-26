@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Header } from "./_components/Header";
 
 export const metadata = {

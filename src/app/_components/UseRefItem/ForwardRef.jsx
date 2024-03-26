@@ -9,7 +9,7 @@ const MyInput = forwardRef((props, ref) => {
   return <input {...props} ref={ref} />;
 });
 
-export const UseForwardRefItem = () => {
+export const ForwardRef = () => {
   const inputRef = useRef(null);
   const handleClick = () => {
     inputRef.current.focus();

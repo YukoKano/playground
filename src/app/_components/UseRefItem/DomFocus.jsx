@@ -3,7 +3,7 @@
 
 import { useRef } from "react";
 
-export const UseRefItemDom = () => {
+export const DomFocus = () => {
   // DOM
   const ref = useRef(null);
 

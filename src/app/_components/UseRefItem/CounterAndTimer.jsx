@@ -3,7 +3,7 @@
 
 import { useState, useRef } from "react";
 
-export const UseRefItem = () => {
+export const CounterAndTimer = () => {
   // timer
   const [startTime, setStartTime] = useState(null);
   const [nowTime, setNowTime] = useState(null);

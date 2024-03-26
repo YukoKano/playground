@@ -1,7 +1,7 @@
-import { UseRefItem } from "@/app/_components/UseRefItem";
-import { UseForwardRefItem } from "@/app/_components/UseRefItem/UseForwardRefItem";
-import { UseRefItemDom } from "@/app/_components/UseRefItem/UseRefItemDom";
-import { UseRefItemImage } from "@/app/_components/UseRefItem/UseRefItemImage";
+import { CounterAndTimer } from "@/app/_components/UseRefItem";
+import { ForwardRef } from "@/app/_components/UseRefItem/ForwardRef";
+import { DomFocus } from "@/app/_components/UseRefItem/DomFocus";
+import { ImageScroll } from "@/app/_components/UseRefItem/ImageScroll";
 
 export default function userefcheck() {
   return (
@@ -14,10 +14,10 @@ export default function userefcheck() {
       >
         https://ja.react.dev/reference/react/useRef
       </a>
-      <UseRefItem />
-      <UseRefItemDom />
-      <UseRefItemImage />
-      <UseForwardRefItem />
+      <CounterAndTimer />
+      <DomFocus />
+      <ImageScroll />
+      <ForwardRef />
     </>
   );
 }

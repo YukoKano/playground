@@ -3,7 +3,7 @@
 
 import { useRef } from "react";
 
-export const UseRefItemImage = () => {
+export const ImageScroll = () => {
   // DOM
   const listRef = useRef(null);
 

@@ -46,7 +46,7 @@ export const ChatRoomConnection = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <>
+    <div>
       <label>
         choose the chat room : {""}
         <select value={roomId} onChange={(e) => setRoomId(e.target.value)}>
@@ -64,6 +64,6 @@ export const ChatRoomConnection = () => {
       </button>
       {show && <hr />}
       {show && <ChatRoom roomId={roomId} />}
-    </>
+    </div>
   );
 };

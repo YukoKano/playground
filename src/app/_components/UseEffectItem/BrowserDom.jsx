@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 
+// ブラウザのDOM APIに接続するときはuseEffectを使い、きちんとクリーンアップする
 export const BrowserDom = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 

@@ -3,6 +3,8 @@
 import { useState, useEffect, useRef } from "react";
 import { FadeInAnimation } from "./animation";
 
+// 外部のアニメーションライブラリを使用するときは、refでDOMを参照してuseEffectで使用する
+
 const Welcome = () => {
   const ref = useRef();
 

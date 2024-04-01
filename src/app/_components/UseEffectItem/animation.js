@@ -1,3 +1,5 @@
+// 外部のアニメーションライブラリのサンプル
+
 export class FadeInAnimation {
   constructor(node) {
     this.node = node;

@@ -11,6 +11,7 @@ export const BrowserDom = () => {
     };
     window.addEventListener("pointermove", handleMove);
     return () => {
+      // 関数を渡す必要がありそう
       window.removeEventListener("pointermove", handleMove);
     };
   }, []);

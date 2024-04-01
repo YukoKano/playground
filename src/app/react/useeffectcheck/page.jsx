@@ -1,4 +1,7 @@
-import { ChatRoomConnection } from "@/app/_components/UseEffectItem";
+import {
+  BrowserDom,
+  ChatRoomConnection,
+} from "@/app/_components/UseEffectItem";
 
 export default function useeffectcheck() {
   return (
@@ -13,6 +16,7 @@ export default function useeffectcheck() {
         https://ja.react.dev/reference/react/useEffect
       </a>
       <ChatRoomConnection />
+      <BrowserDom />
     </>
   );
 }

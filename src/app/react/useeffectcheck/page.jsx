@@ -1,6 +1,7 @@
 import {
   BrowserDom,
   ChatRoomConnection,
+  FadeInAnimationComp,
 } from "@/app/_components/UseEffectItem";
 
 export default function useeffectcheck() {
@@ -17,6 +18,7 @@ export default function useeffectcheck() {
       </a>
       <ChatRoomConnection />
       <BrowserDom />
+      <FadeInAnimationComp />
     </>
   );
 }

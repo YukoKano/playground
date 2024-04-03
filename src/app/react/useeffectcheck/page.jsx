@@ -18,11 +18,15 @@ export default function useeffectcheck() {
       >
         https://ja.react.dev/reference/react/useEffect
       </a>
+      <div style={{ marginTop: "40px" }} />
+      <h3>外部システムへの接続</h3>
       <ChatRoomConnection />
       <BrowserDom />
       <FadeInAnimationComp />
       <ModalDialog />
       <VisiblityTracking />
+      <div style={{ marginTop: "40px" }} />
+      <h3>カスタムフックにエフェクトをラップする</h3>
     </>
   );
 }

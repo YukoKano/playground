@@ -48,7 +48,7 @@ const Box = () => {
 
 const LongSection = () => {
   const items = [];
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 50; i++) {
     items.push(<li key={i}>Item #{i} (keep scrolling)</li>);
   }
   return <ul style={{ display: "block" }}>{items}</ul>;
@@ -57,8 +57,6 @@ const LongSection = () => {
 export const VisiblityTracking = () => {
   return (
     <>
-      <LongSection />
-      <Box />
       <LongSection />
       <Box />
       <LongSection />

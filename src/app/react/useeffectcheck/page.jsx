@@ -3,6 +3,7 @@ import {
   ChatRoomConnection,
   FadeInAnimationComp,
   ModalDialog,
+  VisiblityTracking,
 } from "@/app/_components/UseEffectItem";
 
 export default function useeffectcheck() {
@@ -21,6 +22,7 @@ export default function useeffectcheck() {
       <BrowserDom />
       <FadeInAnimationComp />
       <ModalDialog />
+      <VisiblityTracking />
     </>
   );
 }

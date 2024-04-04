@@ -11,6 +11,9 @@ export const Header = () => {
         <li>
           <Link href="/react/userefcheck">useRef</Link>
         </li>
+        <li>
+          <Link href="/react/useeffectcheck">useEffect</Link>
+        </li>
       </ul>
     </header>
   );

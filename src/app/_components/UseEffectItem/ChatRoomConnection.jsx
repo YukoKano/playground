@@ -1,5 +1,10 @@
 "use client"; // やっぱこれいるっぽい
 
+// ↑use何ちゃらを使う場合は絶対必要
+// footerとかclient側にしなくていいやつはuseclientなしでサーバーサイド側にする
+
+// サービスによってどこに書くかは要相談（まとめてもOK）
+
 import { useEffect, useState } from "react";
 
 const createConnection = (serverUrl, roomId) => {

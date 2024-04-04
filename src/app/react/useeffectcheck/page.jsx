@@ -1,6 +1,7 @@
 import {
   BrowserDom,
   ChatRoomConnection,
+  ChatroomWithCustomHook,
   FadeInAnimationComp,
   ModalDialog,
   VisiblityTracking,
@@ -27,6 +28,7 @@ export default function useeffectcheck() {
       <VisiblityTracking />
       <div style={{ marginTop: "40px" }} />
       <h3>カスタムフックにエフェクトをラップする</h3>
+      <ChatroomWithCustomHook />
     </>
   );
 }

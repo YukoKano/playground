@@ -6,7 +6,7 @@ import { useChatRoom } from "./customhooks/useChatroom";
 const ChatRoom = ({ roomId }) => {
   const [serverUrl, setServerUrl] = useState("https://localhost:1234");
 
-  useChatRoom({ roomId: roomId, serverUrl: serverUrl });
+  useChatRoom({ roomId: roomId, serverUrl: serverUrl }); // useEffectか若干わかりづらいんだけどな
 
   return (
     <>

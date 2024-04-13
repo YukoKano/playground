@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useChatRoom } from "./customhooks/useChatroom";
+import { useChatRoom } from "./hooks/useChatroom";
 
 const ChatRoom = ({ roomId }) => {
   const [serverUrl, setServerUrl] = useState("https://localhost:1234");

@@ -4,3 +4,4 @@ export * from "./FadeInAnimationComp";
 export * from "./ModalDialog";
 export * from "./VisiblityTracking";
 export * from "./ChatroomWithCustomHook";
+export * from "./MousePosition";

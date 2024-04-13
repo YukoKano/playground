@@ -4,6 +4,7 @@ import {
   ChatroomWithCustomHook,
   FadeInAnimationComp,
   ModalDialog,
+  MousePosition,
   VisiblityTracking,
 } from "@/app/_components/UseEffectItem";
 
@@ -22,13 +23,14 @@ export default function useeffectcheck() {
       <div style={{ marginTop: "40px" }} />
       <h3>外部システムへの接続</h3>
       <ChatRoomConnection />
-      <BrowserDom />
+      {/* <BrowserDom /> */}
       <FadeInAnimationComp />
       <ModalDialog />
       <VisiblityTracking />
       <div style={{ marginTop: "40px" }} />
       <h3>カスタムフックにエフェクトをラップする</h3>
       <ChatroomWithCustomHook />
+      <MousePosition />
     </>
   );
 }

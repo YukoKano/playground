@@ -31,6 +31,9 @@ export default function useeffectcheck() {
       <h3>カスタムフックにエフェクトをラップする</h3>
       <ChatroomWithCustomHook />
       <MousePosition />
+      <div style={{ marginTop: "40px" }} />
+      <h3>非 React ウィジェットの制御</h3>
+      map-widgetが動かなかったのでスキップ
     </>
   );
 }

@@ -34,6 +34,10 @@ export default function useeffectcheck() {
       <div style={{ marginTop: "40px" }} />
       <h3>非 React ウィジェットの制御</h3>
       map-widgetが動かなかったのでスキップ
+      <h3>エフェクトから最新の props と state を読み取る </h3>
+      実験的APIの話なのでスキップ
+      <h3>サーバとクライアントで異なるコンテンツを表示する</h3>
+      ↑よくわからない
     </>
   );
 }
